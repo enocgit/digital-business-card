@@ -1,0 +1,138 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.container {
+  width: 72%;
+  margin-inline: auto;
+}
+.main--business-card {
+  width: 350px;
+  /* height: 868px; */
+  background: #23252C;
+  color: #fff;
+  padding-block: 44px;
+  padding-inline: 116px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.main--business-card > div {
+  max-width: 350px;
+  margin-inline: auto;
+  background-color: #1A1B21;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.info--intro-img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.info--intro-name {
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+  bottom: 2rem;
+}
+.info--intro-dev {
+  font-size: 13px;
+  color: #F3BF99;
+  position: relative;
+  bottom: 4.8rem;
+}
+.info--intro-website {
+  font-size: 0.8rem;
+  position: relative;
+  bottom: 5.5rem;
+}
+.info--btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -1.5rem;
+}
+.info--btns a button {
+  display: flex;
+  justify-content: center;
+}
+.info--btns a button img {
+  margin-inline-end: 6px;
+}
+.info--btn {
+  width: 119px;
+  height: 34px;
+  position: relative;
+  bottom: 2.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about--title, .interests--title {
+  text-align: left;
+  font-size: 21px;
+  line-height: 0;
+}
+.about--para, .interests--para {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 300;
+  padding-bottom: 2rem;
+}
+.linkedin-btn {
+  background-color: #5093E2;
+  color: #fff;
+}
+.footer {
+  background-color: #161619;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer div {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
